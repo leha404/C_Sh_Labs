@@ -8,6 +8,8 @@ namespace ConsoleApp3
 {
     class Program
     {
+        // Без третьего параметра не запомнить начальное значение, 
+        // поэтому добавим a_beg
         static void RecursiveSubProgramPOW(int a_int, int x_int, int a_beg)
         {
             if (x_int == 1) Console.WriteLine(a_int);
